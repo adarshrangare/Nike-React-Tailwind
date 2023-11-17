@@ -27,7 +27,7 @@ const Nav = () => {
                 <img src={headerLogo} alt="Logo" width={130} height = {29} />
             </a>
 
-            <ul className={`transition duration-500 flex-1 flex justify-center items-center gap-16 max-lg:flex-col max-lg:items-end max-lg:gap-10 max-lg:fixed max-lg:top-[5%] max-lg:right-[15%] ${!hamOpen ? 'max-lg:translate-x-[200%]': 'max-lg:translate-x-0'} max-lg:w-[50vw] max-lg:p-10 max-lg:rounded-[10px] max-lg:shadow-[0_0_10px_1px_rgba(0,0,0,0.2)] max-lg:bg-white max-lg:z-30 max-lg:font-medium`}>
+            <ul className={`transition duration-500 flex-1 flex justify-center items-center gap-16 max-lg:flex-col max-lg:items-end max-lg:gap-10 max-lg:fixed max-lg:top-[5%] max-lg:right-[15%] ${!hamOpen ? 'max-lg:translate-x-[200%]': 'max-lg:translate-x-0'} max-lg:w-[300px] max-lg:p-10 max-lg:rounded-[10px] max-lg:shadow-[0_0_10px_1px_rgba(0,0,0,0.2)] max-lg:bg-white max-lg:z-30 max-lg:font-medium`}>
                 {/* // NavLinks  */}
                 {navLinks.map((item)=>(
                     <li key={item.label}>
