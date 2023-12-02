@@ -76,7 +76,7 @@ const Footer = () => {
           <div className="flex flex-1 justify-start items-center cursor-pointer font-montserrat " >
                   
               <img src={copyrightSign} alt="copyright" width={18} height={18} className="rounded-full mt-0" />    
-              <p>&nbsp; Copyright. All rights reserved <a href={"https://github.com/adarshrangare"}>by <span className="text-coral-red"> Adarsh Rangare </span> </a> </p>
+              <p>&nbsp; Copyright. All rights reserved <a href={"https://github.com/adarshrangare"} target="_blank">by <span className="text-coral-red"> Adarsh Rangare </span> </a> </p>
           </div>
           <p className="cursor-pointer font-montserrat " > Terms & Conditions</p>
       </div>
